@@ -1,0 +1,134 @@
+body{
+    background-color: #b3b3cb;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    background-color: white;
+}
+
+li{
+    display:inline-block;
+    margin: 20px;
+}
+
+
+#nav{
+
+/* background-color: blanchedalmond; */
+width: 50%;
+height:fit-content;
+position: absolute;
+top: 150px;
+right: 50px;
+}
+
+header{
+    position: relative;
+    /* background-color: blue;} */
+}
+
+#logo{
+    width:50%;
+    height: 150px;
+    border: 3;
+    border-radius: 50%;
+    background-color: rgb(242, 242, 242);
+
+}
+
+
+
+
+
+h1{
+
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+h3{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+img{
+    width: 250;
+    height: 250;
+    border-radius: 10%;
+    border: 3px solid black;
+    padding: 1px;
+    margin: 50px;  
+
+}
+
+.form_center {
+    text-align: center;
+
+}
+form{
+    text-align: center;
+    display: inline-block;
+}
+
+legend{
+color:  rgb(242, 242, 242);
+background-color: black;
+text-align: center;
+font-size: x-large;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+fieldset{
+
+    background-color:  rgb(242, 242, 242);
+    width: 600px;
+    height: 600px;
+    padding: 5px;
+    border: solid 3px;
+    border-radius: 10%;
+    text-align: center;
+}
+
+
+
+input ,select {
+/* margin: 5px; */
+width: 200px;
+height: 50px;
+border: 2px solid rgba(15, 14, 14, 0.623);
+border-radius: 30%;
+padding: 1px;
+justify-items: center;
+
+}
+
+
+.radio{
+    text-align: center;
+    display: inline;
+    width: 30px;
+
+}
+
+button{
+    margin: 5px;
+text-align: center;}
+
+table,th,tr,td {
+
+position:static;
+border:solid  rgb(222, 222, 222)  2px;
+width:auto;
+height: auto;
+padding: 5px;
+}
+
