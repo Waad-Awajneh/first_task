@@ -72,11 +72,13 @@ img{
 
 .form_center {
     text-align: center;
+   
 
 }
 form{
     text-align: center;
     display: inline-block;
+    position: relative;
 }
 
 legend{
@@ -101,13 +103,14 @@ fieldset{
 
 
 input ,select {
-/* margin: 5px; */
+margin: 5px; 
 width: 200px;
 height: 50px;
 border: 2px solid rgba(15, 14, 14, 0.623);
 border-radius: 30%;
 padding: 1px;
 justify-items: center;
+
 
 }
 
@@ -120,14 +123,17 @@ justify-items: center;
 }
 
 button{
-    margin: 5px;
+margin: 5px;
 text-align: center;}
 
 table,th,tr,td {
-position:static;
+text-align: center;
 border:solid  rgb(222, 222, 222)  2px;
 width:auto;
 height: auto;
 padding: 5px;
+margin-left: 22%;
+
 }
+
 
